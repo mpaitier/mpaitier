@@ -5,7 +5,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Anton&size=26&pause=1400&color=FF0022&center=true&vCenter=true&width=700&lines=Salut+%E2%80%94+moi+c'est+Mathias;Je+construis+des+applis+mobiles;Flutter+%E2%80%A2+Kotlin+%E2%80%A2+Firebase;Je+cherche+mon+premier+CDI" alt="Typing SVG" />
 
 <a href="https://www.linkedin.com/in/mathias-paitier"><img src="https://img.shields.io/badge/LinkedIn-FF0022?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<img src="https://img.shields.io/badge/Nantes%20%C2%B7%20Bordeaux%20%C2%B7%20Toulon-0D0D0D?style=for-the-badge&logo=googlemaps&logoColor=FF0022" alt="Localisation"/>
+<img src="https://img.shields.io/badge/Toulon%20%C2%B7%20PACA%20%C2%B7%20Nantes-0D0D0D?style=for-the-badge&logo=googlemaps&logoColor=FF0022" alt="Localisation"/>
 <img src="https://img.shields.io/badge/Recherche%20un%20CDI-F5F5F5?style=for-the-badge&logoColor=0D0D0D" alt="Open to work"/>
 
 </div>
@@ -18,7 +18,7 @@ Ingénieur fraîchement diplômé de l'ISEN, avec un double diplôme à l'UQAC (
 
 Ce qui me plaît vraiment, c'est construire des applis mobiles qu'on utilise au quotidien. La plupart de mes projets perso sont en Flutter avec Firebase, et j'ai aussi un peu de Kotlin natif sous le coude.
 
-Je cherche un poste de développeur mobile à **Nantes**, **Bordeaux** ou **Toulon**.
+Je cherche un poste de développeur mobile en **PACA**, de préférence à **Toulon**, ou à **Nantes**.
 
 <img src="./assets/stack.svg" width="100%" alt="Stack" />
 
