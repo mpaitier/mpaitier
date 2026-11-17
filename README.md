@@ -25,13 +25,28 @@ Je cherche un poste de développeur mobile en **PACA**, de préférence à **Tou
 <div align="center">
 
 **MOBILE**<br/>
-<img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,androidstudio,firebase&theme=dark&perline=10" />
+<a href="https://flutter.dev" title="Flutter"><img src="https://skillicons.dev/icons?i=flutter&theme=dark" width="48" alt="Flutter" title="Flutter" /></a>
+<a href="https://dart.dev" title="Dart"><img src="https://skillicons.dev/icons?i=dart&theme=dark" width="48" alt="Dart" title="Dart" /></a>
+<a href="https://kotlinlang.org" title="Kotlin"><img src="https://skillicons.dev/icons?i=kotlin&theme=dark" width="48" alt="Kotlin" title="Kotlin" /></a>
+<a href="https://developer.android.com/studio" title="Android Studio"><img src="https://skillicons.dev/icons?i=androidstudio&theme=dark" width="48" alt="Android Studio" title="Android Studio" /></a>
+<a href="https://firebase.google.com" title="Firebase"><img src="https://skillicons.dev/icons?i=firebase&theme=dark" width="48" alt="Firebase" title="Firebase" /></a>
 
 **LANGAGES & BACK**<br/>
-<img src="https://skillicons.dev/icons?i=py,ts,js,cs,cpp,nodejs&theme=dark&perline=10" />
+<a href="https://www.python.org" title="Python"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="48" alt="Python" title="Python" /></a>
+<a href="https://www.typescriptlang.org" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" alt="TypeScript" title="TypeScript" /></a>
+<a href="https://developer.mozilla.org/docs/Web/JavaScript" title="JavaScript"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" alt="JavaScript" title="JavaScript" /></a>
+<a href="https://learn.microsoft.com/dotnet/csharp" title="C#"><img src="https://skillicons.dev/icons?i=cs&theme=dark" width="48" alt="C#" title="C#" /></a>
+<a href="https://isocpp.org" title="C++"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" alt="C++" title="C++" /></a>
+<a href="https://nodejs.org" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" alt="Node.js" title="Node.js" /></a>
 
 **OUTILS**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,godot,latex,linux&theme=dark&perline=10" />
+<a href="https://git-scm.com" title="Git"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" alt="Git" title="Git" /></a>
+<a href="https://github.com" title="GitHub"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" alt="GitHub" title="GitHub" /></a>
+<a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="48" alt="GitHub Actions" title="GitHub Actions" /></a>
+<a href="https://code.visualstudio.com" title="VS Code"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="48" alt="VS Code" title="VS Code" /></a>
+<a href="https://godotengine.org" title="Godot"><img src="https://skillicons.dev/icons?i=godot&theme=dark" width="48" alt="Godot" title="Godot" /></a>
+<a href="https://www.latex-project.org" title="LaTeX"><img src="https://skillicons.dev/icons?i=latex&theme=dark" width="48" alt="LaTeX" title="LaTeX" /></a>
+<a href="https://www.kernel.org" title="Linux"><img src="https://skillicons.dev/icons?i=linux&theme=dark" width="48" alt="Linux" title="Linux" /></a>
 
 </div>
 
