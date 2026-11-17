@@ -64,17 +64,43 @@ query($login: String!) {
 """
 
 
-def fetch():
-    user = api("https://api.github.com/graphql",
-               {"query": QUERY, "variables": {"login": USER}})["data"]["user"]
+REPO_FIELDS = """
+  name nameWithOwner description stargazerCount forkCount
+  repositoryTopics(first: 3) { nodes { topic { name } } }
+  languages(first: 10, orderBy: {field: SIZE, direction: DESC}) { edges { size node { name } } }
+"""
+
+
+def fetch_repos():
+    """Récupère les dépôts de PINNED en une requête. Un dépôt introuvable est signalé, pas bloquant."""
+    parts = []
+    for i, entry in enumerate(PINNED):
+        owner, name = entry.split("/", 1) if "/" in entry else (USER, entry)
+        parts.append(f'r{i}: repository(owner: "{owner}", name: "{name}") {{ {REPO_FIELDS} }}')
+    res = api("https://api.github.com/graphql", {"query": "query {" + " ".join(parts) + "}"})
+    for err in res.get("errors", []):
+        print(f"::warning::{err.get('message')}")
+    data = res.get("data") or {}
     repos = []
-    for name in PINNED:
-        r = api(f"https://api.github.com/repos/{USER}/{name}")
-        langs = api(f"https://api.github.com/repos/{USER}/{name}/languages")
-        main_lang = next((l for l in langs if l not in EXCLUDED_LANGS), r.get("language"))
-        repos.append({"name": r["name"], "description": r.get("description") or "",
-                      "language": main_lang, "stars": r["stargazers_count"],
-                      "forks": r["forks_count"], "topics": r.get("topics", [])[:3]})
+    for i, entry in enumerate(PINNED):
+        r = data.get(f"r{i}")
+        if r is None:
+            print(f"::warning::Dépôt introuvable ou privé : {entry} (carte ignorée)")
+            continue
+        langs = [e["node"]["name"] for e in r["languages"]["edges"]]
+        main_lang = next((l for l in langs if l not in EXCLUDED_LANGS), langs[0] if langs else None)
+        repos.append({"name": r["name"], "description": r["description"] or "",
+                      "language": main_lang, "stars": r["stargazerCount"], "forks": r["forkCount"],
+                      "topics": [n["topic"]["name"] for n in r["repositoryTopics"]["nodes"]]})
+    return repos
+
+
+def fetch():
+    res = api("https://api.github.com/graphql", {"query": QUERY, "variables": {"login": USER}})
+    if res.get("errors"):
+        raise SystemExit(f"Erreur GraphQL : {res['errors']}")
+    user = res["data"]["user"]
+    repos = fetch_repos()
 
     lang_sizes, lang_colors, stars = {}, {}, 0
     for node in user["repositories"]["nodes"]:
