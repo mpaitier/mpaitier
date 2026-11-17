@@ -41,7 +41,7 @@ Je cherche un poste de développeur mobile en **PACA**, de préférence à **Tou
 
 <a href="https://github.com/mpaitier/amor_app"><img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-amor_app.svg" width="49%" alt="amor_app" /></a>
 <a href="https://github.com/mpaitier/cartodex"><img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-cartodex.svg" width="49%" alt="cartodex" /></a>
-<a href="https://github.com/mpaitier/ThristyQuest"><img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-ThristyQuest.svg" width="49%" alt="ThirstyQuest" /></a>
+<a href="https://github.com/mpaitier/ThirstyQuest"><img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-ThirstyQuest.svg" width="49%" alt="ThirstyQuest" /></a>
 <a href="https://github.com/mpaitier/quarter-bells"><img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-quarter-bells.svg" width="49%" alt="quarter-bells" /></a>
 
 </div>
@@ -50,7 +50,7 @@ Je cherche un poste de développeur mobile en **PACA**, de préférence à **Tou
 |---|---|---|
 | [amor_app](https://github.com/mpaitier/amor_app) | Journal de souvenirs partagé pour les couples (photos, lieux, GIF, dates), synchronisé en temps réel | Flutter · Firebase |
 | [cartodex](https://github.com/mpaitier/cartodex) | Suivi de collection Pokémon TCG Pocket multi-comptes, boosters prioritaires par set | Flutter · Bloc · Clean Architecture |
-| [ThirstyQuest](https://github.com/mpaitier/ThristyQuest) | Appli sociale de suivi des boissons | Kotlin · Android |
+| [ThirstyQuest](https://github.com/mpaitier/ThirstyQuest) | Appli sociale de suivi des boissons | Kotlin · Android |
 | [quarter-bells](https://github.com/mpaitier/quarter-bells) | Jeu coopératif en ligne pour 2 à 4 joueurs, sans communication | TypeScript |
 
 <img src="./assets/stats.svg" width="100%" alt="Stats" />

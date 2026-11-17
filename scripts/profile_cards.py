@@ -13,9 +13,9 @@ from xml.sax.saxutils import escape
 
 USER = os.environ.get("GH_USER", "mpaitier")
 ACTIVITY_DAYS = 60
-PINNED = ["amor_app", "cartodex", "ThristyQuest", "quarter-bells"]
+PINNED = ["amor_app", "cartodex", "ThirstyQuest", "quarter-bells"]
 # Nom affiché sur la carte quand il diffère du nom du dépôt
-DISPLAY_NAMES = {"ThristyQuest": "ThirstyQuest"}
+DISPLAY_NAMES = {}
 # Langages générés automatiquement par Flutter/Android (dossiers runner), exclus du classement
 EXCLUDED_LANGS = {"CMake", "Swift", "Objective-C", "Ruby", "HTML", "C", "Batchfile",
                   "Shell", "Dockerfile", "PowerShell", "Makefile", "CSS"}
