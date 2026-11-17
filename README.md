@@ -39,10 +39,10 @@ Je cherche un poste de développeur mobile en **PACA**, de préférence à **Tou
 
 <div align="center">
 
-<a href="https://github.com/mpaitier/amor_app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mpaitier&repo=amor_app&bg_color=0D0D0D&title_color=FF0022&text_color=F5F5F5&icon_color=FF0022&border_color=FF0022" /></a>
-<a href="https://github.com/mpaitier/cartodex"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mpaitier&repo=cartodex&bg_color=0D0D0D&title_color=FF0022&text_color=F5F5F5&icon_color=FF0022&border_color=FF0022" /></a>
-<a href="https://github.com/mpaitier/ThirstyQuest"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mpaitier&repo=ThirstyQuest&bg_color=0D0D0D&title_color=FF0022&text_color=F5F5F5&icon_color=FF0022&border_color=FF0022" /></a>
-<a href="https://github.com/mpaitier/quarter-bells"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mpaitier&repo=quarter-bells&bg_color=0D0D0D&title_color=FF0022&text_color=F5F5F5&icon_color=FF0022&border_color=FF0022" /></a>
+<a href="https://github.com/mpaitier/amor_app"><img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-amor_app.svg" width="49%" alt="amor_app" /></a>
+<a href="https://github.com/mpaitier/cartodex"><img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-cartodex.svg" width="49%" alt="cartodex" /></a>
+<a href="https://github.com/mpaitier/ThirstyQuest"><img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-ThirstyQuest.svg" width="49%" alt="ThirstyQuest" /></a>
+<a href="https://github.com/mpaitier/quarter-bells"><img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-quarter-bells.svg" width="49%" alt="quarter-bells" /></a>
 
 </div>
 
@@ -57,12 +57,12 @@ Je cherche un poste de développeur mobile en **PACA**, de préférence à **Tou
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mpaitier&show_icons=true&include_all_commits=true&count_private=true&bg_color=0D0D0D&title_color=FF0022&text_color=F5F5F5&icon_color=FF0022&border_color=FF0022&ring_color=FF0022" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mpaitier&layout=compact&langs_count=8&bg_color=0D0D0D&title_color=FF0022&text_color=F5F5F5&border_color=FF0022" />
+<img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-stats.svg" width="49%" alt="Stats GitHub" />
+<img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-langs.svg" width="49%" alt="Langages" />
 
 <img src="https://streak-stats.demolab.com?user=mpaitier&background=0D0D0D&border=FF0022&stroke=FF0022&ring=FF0022&fire=FF0022&currStreakNum=F5F5F5&sideNums=F5F5F5&currStreakLabel=FF0022&sideLabels=FF0022&dates=9A9A9A" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mpaitier&bg_color=0D0D0D&color=F5F5F5&line=FF0022&point=F5F5F5&area=true&area_color=FF0022&title_color=FF0022&hide_border=true" width="100%" />
+<img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/card-activity.svg" width="100%" alt="Activité" />
 
 <img src="https://raw.githubusercontent.com/mpaitier/mpaitier/output/github-snake-red.svg" alt="Snake qui mange mes contributions" />
 
