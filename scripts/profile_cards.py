@@ -13,7 +13,9 @@ from xml.sax.saxutils import escape
 
 USER = os.environ.get("GH_USER", "mpaitier")
 ACTIVITY_DAYS = 60
-PINNED = ["amor_app", "cartodex", "ThirstyQuest", "quarter-bells"]
+PINNED = ["amor_app", "cartodex", "ThristyQuest", "quarter-bells"]
+# Nom affiché sur la carte quand il diffère du nom du dépôt
+DISPLAY_NAMES = {"ThristyQuest": "ThirstyQuest"}
 # Langages générés automatiquement par Flutter/Android (dossiers runner), exclus du classement
 EXCLUDED_LANGS = {"CMake", "Swift", "Objective-C", "Ruby", "HTML", "C", "Batchfile",
                   "Shell", "Dockerfile", "PowerShell", "Makefile", "CSS"}
@@ -89,7 +91,7 @@ def fetch_repos():
             continue
         langs = [e["node"]["name"] for e in r["languages"]["edges"]]
         main_lang = next((l for l in langs if l not in EXCLUDED_LANGS), langs[0] if langs else None)
-        repos.append({"name": r["name"], "description": r["description"] or "",
+        repos.append({"name": r["name"], "title": DISPLAY_NAMES.get(r["name"], r["name"]), "description": r["description"] or "",
                       "language": main_lang, "stars": r["stargazerCount"], "forks": r["forkCount"],
                       "topics": [n["topic"]["name"] for n in r["repositoryTopics"]["nodes"]]})
     return repos
@@ -210,7 +212,7 @@ def project_card(repo, seed):
     lines = textwrap.wrap(desc, 56)[:3]
     if len(textwrap.wrap(desc, 56)) > 3:
         lines[-1] = lines[-1][:53].rstrip() + "…"
-    body = frame(w, h, repo["name"], seed)
+    body = frame(w, h, repo.get("title", repo["name"]), seed)
     body += "".join(f'<text x="22" y="{74 + i * 19}" class="d in" style="animation-delay:{.1 * i:.1f}s">'
                     f'{escape(l)}</text>' for i, l in enumerate(lines))
     y = h - 18
