@@ -158,7 +158,7 @@ CSS = f"""<style>
   .t {{ font: 800 20px {FONT_BOLD}; fill: {WHITE}; letter-spacing: .5px; }}
   .d {{ font: 400 13.5px {FONT}; fill: {WHITE}; }}
   .m {{ font: 600 12.5px {FONT}; fill: {GREY}; }}
-  .k {{ font: 800 12px {FONT_BOLD}; fill: {RED}; letter-spacing: 1px; }}
+  .k {{ font: 700 12px {FONT}; fill: {RED}; letter-spacing: .8px; }}
   .v {{ font: 800 26px {FONT_BOLD}; fill: {WHITE}; }}
   .tag {{ font: 700 11px {FONT}; fill: {BLACK}; }}
   .in {{ animation: in .6s ease-out both; }}
@@ -238,13 +238,13 @@ def project_card(repo, seed):
 
 def stats_card(stats):
     w, h = 420, 215
-    items = [("CONTRIBUTIONS · 12 MOIS", stats["contributions"]), ("COMMITS · 12 MOIS", stats["commits"]),
+    items = [("CONTRIBUTIONS (1 AN)", stats["contributions"]), ("COMMITS (1 AN)", stats["commits"]),
              ("PULL REQUESTS", stats["prs"]), ("DÉPÔTS PUBLICS", stats["repos"]),
              ("ÉTOILES", stats["stars"]), ("FOLLOWERS", stats["followers"])]
-    body = frame(w, h, "STATS", 41)
+    body = frame(w, h, "EN CHIFFRES", 41)
     for i, (k, v) in enumerate(items):
         col, row = i % 2, i // 2
-        x, y = 30 + col * 200, 80 + row * 48
+        x, y = 34 + col * 200, 80 + row * 48
         body += (f'<g class="in" style="animation-delay:{.08 * i:.2f}s">'
                  f'<polygon points="{x - 8},{y - 12} {x - 3},{y - 12} {x - 9},{y + 18} {x - 14},{y + 18}" fill="{RED}"/>'
                  f'<text x="{x}" y="{y}" class="k">{k}</text>'
