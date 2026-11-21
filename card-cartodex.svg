@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="165" viewBox="0 0 420 165"><style>
+  .t { font: 800 20px 'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Arial, sans-serif; fill: #F5F5F5; letter-spacing: .5px; }
+  .d { font: 400 13.5px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F5; }
+  .m { font: 600 12.5px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #9A9A9A; }
+  .k { font: 700 12px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #FF0022; letter-spacing: .8px; }
+  .v { font: 800 26px 'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Arial, sans-serif; fill: #F5F5F5; }
+  .tag { font: 700 11px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #0D0D0D; }
+  .in { animation: in .6s ease-out both; }
+  @keyframes in { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: none; } }
+</style><defs>
+  <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <circle cx="5" cy="5" r="1.4" fill="#FF0022" opacity=".35"/>
+  </pattern>
+  <pattern id="stripes" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="12" height="24" fill="#0D0D0D" opacity=".25"/>
+  </pattern>
+</defs><polygon points="0,6 420,0 420,161 0,165" fill="#0D0D0D"/><polygon points="0,6 189.0,3 126.0,165 0,165" fill="url(#dots)"/><polygon points="324,0 420,0 420,41" fill="#FF0022"/><polygon points="402,119 420,103 420,135" fill="#F5F5F5"/><g transform="translate(14 14) skewX(-14)"><rect x="4" y="4" width="148.0" height="34" fill="#F5F5F5"/><rect width="148.0" height="34" fill="#FF0022"/><rect width="148.0" height="34" fill="url(#stripes)"/><text x="16" y="24" class="t">cartodex</text></g><text x="22" y="74" class="d in" style="animation-delay:0.0s">Application Flutter de suivi de collection Pokémon TCG</text><text x="22" y="93" class="d in" style="animation-delay:0.1s">Pocket sur plusieurs comptes : progression par set,</text><text x="22" y="112" class="d in" style="animation-delay:0.2s">boosters à ouvrir en priorité, synchronisation Fireba…</text><circle cx="28" cy="143" r="6" fill="#00B4AB" stroke="#F5F5F5" stroke-width="1.2"/><text x="40" y="147" class="m">Dart</text><path transform="translate(82.0 136) scale(.75)" fill="#FF0022" d="M8 .25l2.5 5 5.5.8-4 3.9.95 5.5L8 12.9l-4.95 2.55L4 9.95 0 6.05l5.5-.8z"/><text x="98.0" y="147" class="m">0</text><g transform="translate(124.0 135)" fill="none" stroke="#FF0022" stroke-width="1.8"><circle cx="3" cy="2.5" r="2"/><circle cx="11" cy="2.5" r="2"/><circle cx="7" cy="12" r="2"/><path d="M3 4.5v1.5q0 2 2 2h4q2 0 2-2V4.5M7 8v2"/></g><text x="142.0" y="147" class="m">0</text></svg>
