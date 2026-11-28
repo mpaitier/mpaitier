@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="215" viewBox="0 0 420 215"><style>
+  .t { font: 800 20px 'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Arial, sans-serif; fill: #F5F5F5; letter-spacing: .5px; }
+  .d { font: 400 13.5px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F5; }
+  .m { font: 600 12.5px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #9A9A9A; }
+  .k { font: 700 12px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #FF0022; letter-spacing: .8px; }
+  .v { font: 800 26px 'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Arial, sans-serif; fill: #F5F5F5; }
+  .tag { font: 700 11px 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #0D0D0D; }
+  .in { animation: in .6s ease-out both; }
+  @keyframes in { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: none; } }
+</style><defs>
+  <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+    <circle cx="5" cy="5" r="1.4" fill="#FF0022" opacity=".35"/>
+  </pattern>
+  <pattern id="stripes" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+    <rect width="12" height="24" fill="#0D0D0D" opacity=".25"/>
+  </pattern>
+</defs><polygon points="0,6 420,0 420,211 0,215" fill="#0D0D0D"/><polygon points="0,6 189.0,3 126.0,215 0,215" fill="url(#dots)"/><polygon points="336,0 420,0 420,50" fill="#FF0022"/><polygon points="402,169 420,153 420,185" fill="#F5F5F5"/><g transform="translate(14 14) skewX(-14)"><rect x="4" y="4" width="188.5" height="34" fill="#F5F5F5"/><rect width="188.5" height="34" fill="#FF0022"/><rect width="188.5" height="34" fill="url(#stripes)"/><text x="16" y="24" class="t">EN CHIFFRES</text></g><g class="in" style="animation-delay:0.00s"><polygon points="26,68 31,68 25,98 20,98" fill="#FF0022"/><text x="34" y="80" class="k">CONTRIBUTIONS (1 AN)</text><text x="34" y="106" class="v">596</text></g><g class="in" style="animation-delay:0.08s"><polygon points="226,68 231,68 225,98 220,98" fill="#FF0022"/><text x="234" y="80" class="k">COMMITS (1 AN)</text><text x="234" y="106" class="v">456</text></g><g class="in" style="animation-delay:0.16s"><polygon points="26,116 31,116 25,146 20,146" fill="#FF0022"/><text x="34" y="128" class="k">PULL REQUESTS</text><text x="34" y="154" class="v">82</text></g><g class="in" style="animation-delay:0.24s"><polygon points="226,116 231,116 225,146 220,146" fill="#FF0022"/><text x="234" y="128" class="k">DÉPÔTS PUBLICS</text><text x="234" y="154" class="v">18</text></g><g class="in" style="animation-delay:0.32s"><polygon points="26,164 31,164 25,194 20,194" fill="#FF0022"/><text x="34" y="176" class="k">ÉTOILES</text><text x="34" y="202" class="v">2</text></g><g class="in" style="animation-delay:0.40s"><polygon points="226,164 231,164 225,194 220,194" fill="#FF0022"/><text x="234" y="176" class="k">FOLLOWERS</text><text x="234" y="202" class="v">5</text></g></svg>
